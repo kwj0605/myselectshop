@@ -21,4 +21,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
         return new UserDetailsImpl(user);
     }
+
+    public User getUser() {
+        return null;
+    }
 }
